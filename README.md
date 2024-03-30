@@ -1,9 +1,17 @@
-# React + Vite
+# Taks manager app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Steps to run this application
 
-Currently, two official plugins are available:
+prerequisite: server must be up and running before you start the application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# task-manager-client
+1. Download the repo on local machine 
+
+2. Run npm install command inside root folder on terminal
+
+3. Run npm run dev 
+
+
+### Link for server repo
+
+'https://github.com/lalit-shendage/task-manager-server'
+

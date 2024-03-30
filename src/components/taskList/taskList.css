@@ -1,0 +1,118 @@
+.task-list {
+  max-width: 800px;
+  margin: 20px auto 0;
+  padding: 20px;
+}
+
+.task-list h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters select {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.filters select:focus {
+  outline: none;
+}
+
+.add-task-link {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.add-task-link:hover {
+  background-color: #0056b3;
+}
+
+.task-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-list th,
+.task-list td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.task-list th {
+  background-color: #f0f0f0;
+}
+
+.task-list td {
+  text-align: center;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.task-actions a {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-right: 5px;
+  color: #fff;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-actions a:hover {
+  background-color: #e0a800;
+}
+
+.task-actions button {
+  padding: 6px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.task-actions button:hover {
+  filter: brightness(90%);
+}
+
+.task-actions button.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.task-actions button.delete-button:hover {
+  background-color: #c82333;
+}
+
+.priority-low {
+  color: white;
+  background-color: #28a745; 
+}
+
+.priority-medium {
+  color: white;
+  background-color: #ffc107;
+}
+
+.priority-high {
+  color: white;
+  background-color: #dc3545; 
+}

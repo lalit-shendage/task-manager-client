@@ -1,0 +1,23 @@
+.task {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task h3 {
+    margin-top: 0;
+  }
+  
+  .task p {
+    margin: 5px 0;
+  }
+  
+  .task .priority {
+    font-weight: bold;
+  }
+  
+  .task .category {
+    color: #007bff;
+  }
+  
